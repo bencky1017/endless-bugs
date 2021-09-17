@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="改不完的bug，一个有规律的结构简单内容复杂的解谜游戏。只有开关两个选项，共十组，全部打开即为成功。">
+	<meta name="keywords" content="改不完的Bug,BUG,Endless-Bugs,解谜,游戏"/>
+	<meta name="author" content="BK"/>
+	<title>改不完的Bug</title>
+	<link rel="stylesheet" type="text/css" href="css/endlessbugs.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/endlessbugs.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="header-title">改不完的Bug</div>
+			<div class="header-rule">
+				目的：点击开关，将所有开关滑到右边即为通关。<br><br>
+				规则：开关间有绑定关系、触发关系。<br>
+				绑定关系：点击一个开关，另一个或者多个开关会切换。<br>
+				触发关系：某三个开关开启时候，某个开关点击，会额外触发一个开关的切换。<br><br>
+			</div>
+		</div>
+		<div class="main">
+			<div class='list-border'>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='1' data-value='0'>1</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='2' data-value='0'>2</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='3' data-value='0'>3</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='4' data-value='0'>4</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='5' data-value='0'>5</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='6' data-value='0'>6</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='7' data-value='0'>7</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='8' data-value='0'>8</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='9' data-value='0'>9</div>
+				</div>
+				<div class='list-frame'>
+					<div class="list-btn" data-order='10' data-value='0'>10</div>
+				</div>
+			</div>
+			<div class="list-reset">
+				<button>重置</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
